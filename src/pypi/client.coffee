@@ -41,5 +41,5 @@ class Client
         @callXmlrpc "search", [{name: pkg}], callback, onError
 
 
-module.exports = Client
+module.exports.Client = Client
 
