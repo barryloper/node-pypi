@@ -3,7 +3,8 @@
   "description":  "Client for XMLRPC Python Package Index",
   "keywords":     "python pypi xmlrpc client",
   "author":       "Lukasz Balcerzak",
-  "version":      "0.1.2",
+  "contributors": ["Barry Loper <> (https://github.com/barryloper"],
+  "version":      "0.1.3dev",
   "licenses":     [{
     "type":       "MIT",
     "url":        "https://github.com/lukaszb/pypi/raw/master/LICENSE"
@@ -18,11 +19,11 @@
   "homepage":     "https://github.com/lukaszb/pypi",
   "repository":   {
     "type": "git",
-    "url": "git://github.com/lukaszb/pypi.git"
+    "url": "git://github.com/barryloper/node-pypi.git"
   },
   "dependencies": {
     "coffee-script": ">=1.1.1",
-    "xmlrpc": ">=0.8.1"
+    "xmlrpc": "barryloper/node-xmlrpc"
   },
   "devDependencies" : {
     "underscore" : ">=1.2.1",
