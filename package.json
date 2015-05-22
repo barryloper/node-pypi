@@ -15,7 +15,7 @@
   "directories" : {
     "lib" : "./lib/pypi"
   },
-  "main" : "./index",
+  "main" : "./lib/pypi/client.js",
   "homepage":     "https://github.com/lukaszb/pypi",
   "scripts": {
     "prepublish": "coffee -o lib -c src"
