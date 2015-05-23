@@ -15,17 +15,17 @@
   "directories" : {
     "lib" : "./lib/pypi"
   },
-  "main" : "./lib/pypi/client.js",
+  "main" : "./lib/client.js",
   "homepage":     "https://github.com/lukaszb/pypi",
   "scripts": {
-    "prepublish": "coffee -o lib -c src"
+    "prepublish": "coffee -o lib -c src/pypi"
   },
   "repository":   {
     "type": "git",
     "url": "git://github.com/barryloper/node-pypi.git"
   },
   "dependencies": {
-    "xmlrpc": "barryloper/node-xmlrpc"
+    "xmlrpc": ">=1.3.0"
   },
   "devDependencies" : {
     "coffee-script": ">=1.1.1",
